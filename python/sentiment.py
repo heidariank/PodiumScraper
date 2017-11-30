@@ -11,6 +11,7 @@ Note: positivity score is based on review text and review title
 def get_positivity_scores(reviews):
 	review_scores = []
 	analyzer = SentimentIntensityAnalyzer()
+	print
 	for page in reviews:
 		for rev in page:
 			sentence_list = sent_tokenize(rev[0])

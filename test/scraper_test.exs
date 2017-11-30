@@ -19,18 +19,18 @@ defmodule ScraperTest do
 		</html>"
   end
 
-  #test "tests that get_review_entries(n) returns a list of lists of tuples" do
-  #	result = Scraper.get_review_entries(5)
-  #	assert is_list(result)
-  #	assert is_list(Enum.at(result,0))
-  #	assert is_tuple(Enum.at(Enum.at(result,0),0))
-  #end
+  test "tests that get_review_entries(n) returns a list of lists of tuples" do
+  	result = Scraper.get_review_entries(5)
+  	assert is_list(result)
+  	assert is_list(Enum.at(result,0))
+  	assert is_tuple(Enum.at(Enum.at(result,0),0))
+  end
 
-  #test "tests that get_review_entries(n) returns a list of length n" do
-  #	n = 5
-  #	result = Scraper.get_review_entries(n)
-  #	assert length(result) == n
-  #end
+  test "tests that get_review_entries(n) returns a list of length n" do
+  	n = 5
+  	result = Scraper.get_review_entries(n)
+  	assert length(result) == n
+  end
 
   test "tests get_string_from_floki(floki_list) returns the string content after Floki.find was called" do
   	html = get_html()

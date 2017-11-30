@@ -1,6 +1,7 @@
 defmodule Scraper do
   @moduledoc """
   A Scraper written for Podium code challenge.
+  Author: Kelsey Heidarian
   This scrapes the specified number of pages of reviews from the McKaig Dealership page
   on dealerrater.com and prints the top three most positive reviews to the console.
   """
