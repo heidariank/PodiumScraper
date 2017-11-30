@@ -76,6 +76,6 @@ Since the scraper relies on the nltk library for Python there are Python tests t
 python test.py
 ```
 
-## Authors
+## Author
 
-* **Kelsey Heidarian** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+**Kelsey Heidarian**
